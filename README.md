@@ -1,4 +1,4 @@
-# Binance Order Book Viewer
+# Binance Order Book Viewer :rocket:
 
 This is a web application that interacts with the Binance Spot API to retrieve trading pair data and real-time order book information.
 
@@ -11,7 +11,7 @@ This is a web application that interacts with the Binance Spot API to retrieve t
 
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in your web browser.
-3. The default trading pair is "BTCUSDT", but you can select a different trading pair from the dropdown menu.
+3. The default trading pair is "LTCBTC", but you can select a different trading pair from the dropdown menu.
 4. The order book display will update in real-time as new data comes in through the WebSocket connection.
 
 ## Technologies Used
