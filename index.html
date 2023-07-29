@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Binance</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <label for="symbol">Select a trading pair:</label>
+        <select class="form-control" id="symbol">
+            <!-- Add other trading pairs here -->
+        </select>
+        <div id="orderBookData">
+            <h2 id="price">Latest Bid Price: N/A</h2>
+        </div>
+        <div style="display: none;" class="content-center" id="loader">
+            <img src="./images/loading.gif" alt="">
+        </div>
+        <div id="main-content" class="row">
+            <div class="col-6">
+                <h3>Bid</h3>
+                <table class="table table-hover table-bordered w-50">
+                    <thead>
+                        <tr>
+                            <th>Price</th>
+                            <th>Quantity</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="bidBody">
+
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-6">
+                <h3>Ask</h3>
+                <table class="table table-hover table-bordered w-50">
+                    <thead>
+                        <tr>
+                            <th>Price</th>
+                            <th>Quantity</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="askBody">
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
